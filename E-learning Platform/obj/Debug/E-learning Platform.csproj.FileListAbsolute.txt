@@ -1,0 +1,59 @@
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\E-learning Platform.dll.config
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\E-learning Platform.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\E-learning Platform.pdb
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\csc.exe
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\csc.exe.config
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\csc.rsp
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\csi.exe
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\csi.exe.config
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\csi.rsp
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.AppContext.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Collections.Immutable.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Console.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Globalization.Calendars.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.IO.Compression.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.IO.FileSystem.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Net.Http.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Net.Sockets.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Reflection.Metadata.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.ValueTuple.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Xml.XPath.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\vbc.exe
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\vbc.exe.config
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\vbc.rsp
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\VBCSCompiler.exe
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\roslyn\VBCSCompiler.exe.config
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\obj\Debug\E-learning Platform.csproj.AssemblyReference.cache
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\obj\Debug\E-learning Platform.csproj.CoreCompileInputs.cache
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\obj\Debug\E-learni.92FA8D29.Up2Date
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\obj\Debug\E-learning Platform.dll
+D:\Islington\Year 3\Advanced Database\CW1\E-learning Platform\E-learning Platform\obj\Debug\E-learning Platform.pdb
