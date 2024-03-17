@@ -13,10 +13,5 @@ namespace E_learning_Platform
         {
 
         }
-
-        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -16,12 +16,13 @@ FROM (
     FROM course c
     JOIN enrollment e ON c.course_id = e.course_id
     WHERE EXTRACT(MONTH FROM e.enrollment_date) = :month
+      AND EXTRACT(YEAR FROM e.enrollment_date) = :year
     GROUP BY c.course_id, c.course_title
 )
-WHERE rownumber &lt;= 3
-">
+WHERE rownumber &lt;= 3">
                 <SelectParameters>
                     <asp:ControlParameter ControlID="DropDownList1" Name="month" PropertyName="SelectedValue" />
+                    <asp:ControlParameter ControlID="DropDownList2" Name="year" PropertyName="SelectedValue" />
                 </SelectParameters>
             </asp:SqlDataSource>
             <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT DISTINCT 
@@ -30,6 +31,12 @@ WHERE rownumber &lt;= 3
 FROM enrollment
 ORDER BY month_number
 "></asp:SqlDataSource>
+            <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT DISTINCT 
+       EXTRACT(YEAR FROM enrollment_date) AS enrollment_year
+FROM enrollment
+ORDER BY enrollment_year"></asp:SqlDataSource>
+            <asp:DropDownList ID="DropDownList2" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource3" DataTextField="ENROLLMENT_YEAR" DataValueField="ENROLLMENT_YEAR">
+            </asp:DropDownList>
             <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource2" DataTextField="MONTH_NAME" DataValueField="MONTH_NUMBER">
             </asp:DropDownList>
         </div>
