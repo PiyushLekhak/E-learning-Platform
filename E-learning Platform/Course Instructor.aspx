@@ -80,18 +80,18 @@ WHERE c.course_id = :course">
         </asp:SqlDataSource>
         <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource2" DataTextField="COURSE_TITLE" DataValueField="COURSE_ID">
         </asp:DropDownList>
-        <asp:GridView ID="GridView1" CssClass="table" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="COURSE_ID,COURSE_INSTRUCTOR_ID" DataSourceID="SqlDataSource1">
+        <asp:GridView ID="GridView1" CssClass="table mt-3" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="COURSE_ID,COURSE_INSTRUCTOR_ID" DataSourceID="SqlDataSource1">
             <Columns>
-                <asp:BoundField DataField="COURSE_ID" HeaderText="COURSE_ID" ReadOnly="True" SortExpression="COURSE_ID" />
-                <asp:BoundField DataField="COURSE_TITLE" HeaderText="COURSE_TITLE" SortExpression="COURSE_TITLE" />
-                <asp:BoundField DataField="COURSE_LEVEL" HeaderText="COURSE_LEVEL" SortExpression="COURSE_LEVEL" />
-                <asp:BoundField DataField="DURATION_MONTHS" HeaderText="DURATION_MONTHS" SortExpression="DURATION_MONTHS" />
+                <asp:BoundField DataField="COURSE_ID" HeaderText="COURSE ID" ReadOnly="True" SortExpression="COURSE_ID" />
+                <asp:BoundField DataField="COURSE_TITLE" HeaderText="COURSE TITLE" SortExpression="COURSE_TITLE" />
+                <asp:BoundField DataField="COURSE_LEVEL" HeaderText="COURSE LEVEL" SortExpression="COURSE_LEVEL" />
+                <asp:BoundField DataField="DURATION_MONTHS" HeaderText="DURATION MONTHS" SortExpression="DURATION_MONTHS" />
                 <asp:BoundField DataField="DESCRIPTION" HeaderText="DESCRIPTION" SortExpression="DESCRIPTION" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_ID" HeaderText="COURSE_INSTRUCTOR_ID" ReadOnly="True" SortExpression="COURSE_INSTRUCTOR_ID" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_NAME" HeaderText="COURSE_INSTRUCTOR_NAME" SortExpression="COURSE_INSTRUCTOR_NAME" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_ADDRESS" HeaderText="COURSE_INSTRUCTOR_ADDRESS" SortExpression="COURSE_INSTRUCTOR_ADDRESS" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_EMAIL" HeaderText="COURSE_INSTRUCTOR_EMAIL" SortExpression="COURSE_INSTRUCTOR_EMAIL" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_CONTACT" HeaderText="COURSE_INSTRUCTOR_CONTACT" SortExpression="COURSE_INSTRUCTOR_CONTACT" />
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_ID" HeaderText="COURSE INSTRUCTOR ID" ReadOnly="True" SortExpression="COURSE_INSTRUCTOR_ID" />
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_NAME" HeaderText="COURSE INSTRUCTOR NAME" SortExpression="COURSE_INSTRUCTOR_NAME" />
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_ADDRESS" HeaderText="COURSE INSTRUCTOR ADDRESS" SortExpression="COURSE_INSTRUCTOR_ADDRESS" />
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_EMAIL" HeaderText="COURSE INSTRUCTOR EMAIL" SortExpression="COURSE_INSTRUCTOR_EMAIL" />
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_CONTACT" HeaderText="COURSE INSTRUCTOR CONTACT" SortExpression="COURSE_INSTRUCTOR_CONTACT" />
             </Columns>
         </asp:GridView>
             </div>

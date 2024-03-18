@@ -92,7 +92,7 @@ ORDER BY enrollment_year"></asp:SqlDataSource>
             <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource2" DataTextField="MONTH_NAME" DataValueField="MONTH_NUMBER">
             </asp:DropDownList>
         </div>
-        <asp:GridView ID="GridView1" CssClass="table" runat="server" AllowSorting="True" DataSourceID="SqlDataSource1">
+        <asp:GridView ID="GridView1" CssClass="table  mt-3" runat="server" AllowSorting="True" DataSourceID="SqlDataSource1">
         </asp:GridView>
             </div>
     </form>

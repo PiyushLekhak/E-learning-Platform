@@ -59,16 +59,21 @@
 <a href="/Course Instructor.aspx">Course Instructor</a>
 <a href="/Best E-learning Course.aspx">Best Course</a>
 </div>
-        <div class =" container">
+        <div class ="content">
         
-        <asp:GridView ID="GridView1" CssClass="table" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="COURSE_INSTRUCTOR_ID" DataSourceID="SqlDataSource1" AllowPaging="True">
+        <asp:GridView ID="GridView1" CssClass="table table-striped" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="COURSE_INSTRUCTOR_ID" DataSourceID="SqlDataSource1" AllowPaging="True">
             <Columns>
-                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_ID" HeaderText="COURSE_INSTRUCTOR_ID" SortExpression="COURSE_INSTRUCTOR_ID" ReadOnly="True" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_NAME" HeaderText="COURSE_INSTRUCTOR_NAME" SortExpression="COURSE_INSTRUCTOR_NAME" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_ADDRESS" HeaderText="COURSE_INSTRUCTOR_ADDRESS" SortExpression="COURSE_INSTRUCTOR_ADDRESS" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_EMAIL" HeaderText="COURSE_INSTRUCTOR_EMAIL" SortExpression="COURSE_INSTRUCTOR_EMAIL" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_CONTACT" HeaderText="COURSE_INSTRUCTOR_CONTACT" SortExpression="COURSE_INSTRUCTOR_CONTACT" />
+                    <asp:CommandField HeaderText="Delete" ShowDeleteButton="True" HeaderStyle-CssClass="text-black" HeaderStyle-BackColor="#ccffcc">
+                        <ControlStyle CssClass="btn btn-danger " />
+                    </asp:CommandField>
+                    <asp:CommandField  HeaderText="Edit" ShowEditButton="True" HeaderStyle-CssClass="text-black " HeaderStyle-BackColor="#ccffcc">
+                        <ControlStyle CssClass="btn btn-primary" />
+                    </asp:CommandField>
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_ID" HeaderText="COURSE_INSTRUCTOR_ID" SortExpression="COURSE_INSTRUCTOR_ID" ReadOnly="True" HeaderStyle-BackColor="#ccffcc" />
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_NAME" HeaderText="COURSE_INSTRUCTOR_NAME" SortExpression="COURSE_INSTRUCTOR_NAME" HeaderStyle-BackColor="#ccffcc" />
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_ADDRESS" HeaderText="COURSE_INSTRUCTOR_ADDRESS" SortExpression="COURSE_INSTRUCTOR_ADDRESS" HeaderStyle-BackColor="#ccffcc" />
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_EMAIL" HeaderText="COURSE_INSTRUCTOR_EMAIL" SortExpression="COURSE_INSTRUCTOR_EMAIL"  HeaderStyle-BackColor="#ccffcc"/>
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_CONTACT" HeaderText="COURSE_INSTRUCTOR_CONTACT" SortExpression="COURSE_INSTRUCTOR_CONTACT" HeaderStyle-BackColor="#ccffcc" />
             </Columns>
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM &quot;INSTRUCTOR&quot; WHERE &quot;COURSE_INSTRUCTOR_ID&quot; = :COURSE_INSTRUCTOR_ID" InsertCommand="INSERT INTO &quot;INSTRUCTOR&quot; (&quot;COURSE_INSTRUCTOR_ID&quot;, &quot;COURSE_INSTRUCTOR_NAME&quot;, &quot;COURSE_INSTRUCTOR_ADDRESS&quot;, &quot;COURSE_INSTRUCTOR_EMAIL&quot;, &quot;COURSE_INSTRUCTOR_CONTACT&quot;) VALUES (:COURSE_INSTRUCTOR_ID, :COURSE_INSTRUCTOR_NAME, :COURSE_INSTRUCTOR_ADDRESS, :COURSE_INSTRUCTOR_EMAIL, :COURSE_INSTRUCTOR_CONTACT)" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT * FROM &quot;INSTRUCTOR&quot;" UpdateCommand="UPDATE &quot;INSTRUCTOR&quot; SET &quot;COURSE_INSTRUCTOR_NAME&quot; = :COURSE_INSTRUCTOR_NAME, &quot;COURSE_INSTRUCTOR_ADDRESS&quot; = :COURSE_INSTRUCTOR_ADDRESS, &quot;COURSE_INSTRUCTOR_EMAIL&quot; = :COURSE_INSTRUCTOR_EMAIL, &quot;COURSE_INSTRUCTOR_CONTACT&quot; = :COURSE_INSTRUCTOR_CONTACT WHERE &quot;COURSE_INSTRUCTOR_ID&quot; = :COURSE_INSTRUCTOR_ID">
@@ -111,7 +116,7 @@
                 &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
             </InsertItemTemplate>
             <ItemTemplate>
-                <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="False" CommandName="New" Text="Insert" />
+                <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="False" CommandName="New" Text="Insert" CssClass="btn btn-success" style="font-size: larger;"/>
             </ItemTemplate>
         </asp:FormView>
             </div>
