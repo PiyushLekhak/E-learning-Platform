@@ -5,11 +5,62 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+    <style>
+
+        .sidebar {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color:blanchedalmond;
+            padding-top: 60px;
+            border-top-right-radius:20px;   
+            border-bottom-right-radius:20px;  
+        }
+
+        .sidebar a {
+            padding: 10px;
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            display: block;
+            margin-right:20px;
+            border-top-right-radius:5px;
+            border-bottom-right-radius:100px;
+
+        }
+
+        .sidebar a:hover {
+            background-color:lightcoral;
+        }
+
+        .content {
+            margin-left: 200px;
+            padding: 16px;
+            height: 1000px;
+            justify-content: center;
+            text-align: center;
+        }
+          
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:GridView ID="GridView1" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="COURSE_ID" DataSourceID="SqlDataSource1">
+        <div class="sidebar">
+<a href="/Home.aspx">Home</a>
+<a href="/Student.aspx">Student</a>
+<a href="/Instructor.aspx">Instructor</a>
+<a href="/Course.aspx">Course</a>
+<a href="/Lesson.aspx">Lesson</a>
+<a href="/Student_Record.aspx">Student Record</a>
+<a href="/Student Enrollment.aspx">Enrollment</a>
+<a href="/Course Instructor.aspx">Course Instructor</a>
+<a href="/Best E-learning Course.aspx">Best Course</a>
+</div>
+        <div class = "content">
+            <asp:GridView ID="GridView1" CssClass="table" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="COURSE_ID" DataSourceID="SqlDataSource1" AllowPaging="True">
                 <Columns>
                     <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
                     <asp:BoundField DataField="COURSE_ID" HeaderText="COURSE_ID" ReadOnly="True" SortExpression="COURSE_ID" />
@@ -19,7 +70,6 @@
                     <asp:BoundField DataField="DESCRIPTION" HeaderText="DESCRIPTION" SortExpression="DESCRIPTION" />
                 </Columns>
             </asp:GridView>
-        </div>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM &quot;COURSE&quot; WHERE &quot;COURSE_ID&quot; = :COURSE_ID" InsertCommand="INSERT INTO &quot;COURSE&quot; (&quot;COURSE_ID&quot;, &quot;COURSE_TITLE&quot;, &quot;COURSE_LEVEL&quot;, &quot;DURATION_MONTHS&quot;, &quot;DESCRIPTION&quot;) VALUES (:COURSE_ID, :COURSE_TITLE, :COURSE_LEVEL, :DURATION_MONTHS, :DESCRIPTION)" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT * FROM &quot;COURSE&quot;" UpdateCommand="UPDATE &quot;COURSE&quot; SET &quot;COURSE_TITLE&quot; = :COURSE_TITLE, &quot;COURSE_LEVEL&quot; = :COURSE_LEVEL, &quot;DURATION_MONTHS&quot; = :DURATION_MONTHS, &quot;DESCRIPTION&quot; = :DESCRIPTION WHERE &quot;COURSE_ID&quot; = :COURSE_ID">
             <DeleteParameters>
                 <asp:Parameter Name="COURSE_ID" Type="String" />
@@ -62,6 +112,7 @@
             <ItemTemplate><asp:LinkButton ID="InsertButton" runat="server" CausesValidation="False" CommandName="New" Text="Insert" />
             </ItemTemplate>
         </asp:FormView>
+        </div>
     </form>
 </body>
 </html>

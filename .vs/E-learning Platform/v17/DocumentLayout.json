@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|d:\\islington\\year 3\\advanced database\\cw1\\e-learning platform\\e-learning platform\\student enrollment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|solutionrelative:e-learning platform\\student enrollment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|d:\\islington\\year 3\\advanced database\\cw1\\e-learning platform\\e-learning platform\\best e-learning course.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|solutionrelative:e-learning platform\\best e-learning course.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|d:\\islington\\year 3\\advanced database\\cw1\\e-learning platform\\e-learning platform\\student_record.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|solutionrelative:e-learning platform\\student_record.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\e-learning platform\\course instructor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|solutionrelative:e-learning platform\\course instructor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|d:\\islington\\year 3\\advanced database\\cw1\\e-learning platform\\e-learning platform\\student.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|solutionrelative:e-learning platform\\student.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\e-learning platform\\best e-learning course.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|solutionrelative:e-learning platform\\best e-learning course.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\e-learning platform\\student enrollment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|solutionrelative:e-learning platform\\student enrollment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Student.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|solutionrelative:E-learning Platform\\Student.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\e-learning platform\\lesson.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|d:\\islington\\year 3\\advanced database\\cw1\\e-learning platform\\e-learning platform\\lesson.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|solutionrelative:e-learning platform\\lesson.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\e-learning platform\\instructor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|d:\\islington\\year 3\\advanced database\\cw1\\e-learning platform\\e-learning platform\\instructor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|solutionrelative:e-learning platform\\instructor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\e-learning platform\\course.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|d:\\islington\\year 3\\advanced database\\cw1\\e-learning platform\\e-learning platform\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|solutionrelative:e-learning platform\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|d:\\islington\\year 3\\advanced database\\cw1\\e-learning platform\\e-learning platform\\course.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|solutionrelative:e-learning platform\\course.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|d:\\islington\\year 3\\advanced database\\cw1\\e-learning platform\\e-learning platform\\course instructor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|solutionrelative:e-learning platform\\course instructor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|d:\\islington\\year 3\\advanced database\\cw1\\e-learning platform\\e-learning platform\\content\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7268CF70-6413-481C-915A-76C69A5960E7}|E-learning Platform\\E-learning Platform.csproj|solutionrelative:e-learning platform\\content\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Best E-learning Course.aspx",
+              "DocumentMoniker": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Best E-learning Course.aspx",
+              "RelativeDocumentMoniker": "E-learning Platform\\Best E-learning Course.aspx",
+              "ToolTip": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Best E-learning Course.aspx",
+              "RelativeToolTip": "E-learning Platform\\Best E-learning Course.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-18T16:08:04.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Student_Record.aspx",
               "DocumentMoniker": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Student_Record.aspx",
               "RelativeDocumentMoniker": "E-learning Platform\\Student_Record.aspx",
@@ -54,48 +75,12 @@
               "RelativeToolTip": "E-learning Platform\\Student_Record.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-17T13:53:25.092Z",
+              "WhenOpened": "2024-03-18T16:06:07.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Student Enrollment.aspx",
-              "DocumentMoniker": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Student Enrollment.aspx",
-              "RelativeDocumentMoniker": "E-learning Platform\\Student Enrollment.aspx",
-              "ToolTip": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Student Enrollment.aspx",
-              "RelativeToolTip": "E-learning Platform\\Student Enrollment.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-15T19:32:48.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Course Instructor.aspx",
-              "DocumentMoniker": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Course Instructor.aspx",
-              "RelativeDocumentMoniker": "E-learning Platform\\Course Instructor.aspx",
-              "ToolTip": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Course Instructor.aspx",
-              "RelativeToolTip": "E-learning Platform\\Course Instructor.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-15T19:47:29.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Best E-learning Course.aspx",
-              "DocumentMoniker": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Best E-learning Course.aspx",
-              "RelativeDocumentMoniker": "E-learning Platform\\Best E-learning Course.aspx",
-              "ToolTip": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Best E-learning Course.aspx",
-              "RelativeToolTip": "E-learning Platform\\Best E-learning Course.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-16T13:08:41.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Student.aspx",
               "DocumentMoniker": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Student.aspx",
               "RelativeDocumentMoniker": "E-learning Platform\\Student.aspx",
@@ -103,11 +88,25 @@
               "RelativeToolTip": "E-learning Platform\\Student.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-14T13:39:51.561Z"
+              "WhenOpened": "2024-03-18T16:06:00.721Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "Lesson.aspx",
+              "DocumentMoniker": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Lesson.aspx",
+              "RelativeDocumentMoniker": "E-learning Platform\\Lesson.aspx",
+              "ToolTip": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Lesson.aspx",
+              "RelativeToolTip": "E-learning Platform\\Lesson.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-18T16:05:43.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Instructor.aspx",
               "DocumentMoniker": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Instructor.aspx",
               "RelativeDocumentMoniker": "E-learning Platform\\Instructor.aspx",
@@ -115,7 +114,8 @@
               "RelativeToolTip": "E-learning Platform\\Instructor.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-14T14:06:16.272Z"
+              "WhenOpened": "2024-03-18T16:05:35.177Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -127,19 +127,59 @@
               "RelativeToolTip": "E-learning Platform\\Course.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-14T13:50:40.412Z"
+              "WhenOpened": "2024-03-18T16:05:24.783Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Lesson.aspx",
-              "DocumentMoniker": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Lesson.aspx",
-              "RelativeDocumentMoniker": "E-learning Platform\\Lesson.aspx",
-              "ToolTip": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Lesson.aspx",
-              "RelativeToolTip": "E-learning Platform\\Lesson.aspx",
+              "DocumentIndex": 8,
+              "Title": "Course Instructor.aspx",
+              "DocumentMoniker": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Course Instructor.aspx",
+              "RelativeDocumentMoniker": "E-learning Platform\\Course Instructor.aspx",
+              "ToolTip": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Course Instructor.aspx",
+              "RelativeToolTip": "E-learning Platform\\Course Instructor.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-14T21:58:46.532Z"
+              "WhenOpened": "2024-03-18T14:23:18.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student Enrollment.aspx",
+              "DocumentMoniker": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Student Enrollment.aspx",
+              "RelativeDocumentMoniker": "E-learning Platform\\Student Enrollment.aspx",
+              "ToolTip": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Student Enrollment.aspx",
+              "RelativeToolTip": "E-learning Platform\\Student Enrollment.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-18T14:16:35.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Content\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "E-learning Platform\\Content\\bootstrap.min.css",
+              "ToolTip": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Content\\bootstrap.min.css",
+              "RelativeToolTip": "E-learning Platform\\Content\\bootstrap.min.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-18T13:11:28.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Home.aspx",
+              "RelativeDocumentMoniker": "E-learning Platform\\Home.aspx",
+              "ToolTip": "D:\\Islington\\Year 3\\Advanced Database\\CW1\\E-learning Platform\\E-learning Platform\\Home.aspx",
+              "RelativeToolTip": "E-learning Platform\\Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-18T12:04:45.648Z",
+              "EditorCaption": ""
             }
           ]
         }
