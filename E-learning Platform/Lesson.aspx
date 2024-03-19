@@ -120,6 +120,7 @@
                 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT &quot;COURSE_ID&quot;, &quot;COURSE_TITLE&quot; FROM &quot;COURSE&quot;"></asp:SqlDataSource>
 &nbsp;<br /><br /><div style="width: 150px; display: inline-block;">LESSON_NUMBER:</div>
                 <asp:TextBox ID="LESSON_NUMBERTextBox" runat="server" Text='<%# Bind("LESSON_NUMBER") %>' />
+                <asp:RegularExpressionValidator ID="LessonNumberValidator" runat="server" ControlToValidate="LESSON_NUMBERTextBox" ErrorMessage="Lesson number must be greater than or equal to 1." ValidationExpression="^[1-9]\d*$" />
                 <br /><br />
                 <div style="width: 150px; display: inline-block;">LESSON_TITLE:</div>
                 <asp:TextBox ID="LESSON_TITLETextBox" runat="server" Text='<%# Bind("LESSON_TITLE") %>' />

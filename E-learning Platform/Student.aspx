@@ -116,21 +116,27 @@
                 <div style="text-align: left;">
                     <div style="width: 150px; display: inline-block;">STUDENT_ID:</div>
                     <asp:TextBox ID="STUDENT_IDTextBox" runat="server" Text='<%# Bind("STUDENT_ID") %>' />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="STUDENT_IDTextBox" ErrorMessage="This Field is Required." />
                     <br /> <br />
                     <div style="width: 150px; display: inline-block;">STUDENT_NAME:</div>
                     <asp:TextBox ID="STUDENT_NAMETextBox" runat="server" Text='<%# Bind("STUDENT_NAME") %>' />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="STUDENT_NAMETextBox" ErrorMessage="This Field is Required." />
                     <br /><br />
                     <div style="width: 150px; display: inline-block;">CONTACT:</div>
                     <asp:TextBox ID="CONTACTTextBox" runat="server" Text='<%# Bind("CONTACT") %>' />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="CONTACTTextBox" ErrorMessage="This Field is Required." />
                     <br /><br />
                     <div style="width: 150px; display: inline-block;">EMAIL_ADDRESS:</div>
                     <asp:TextBox ID="EMAIL_ADDRESSTextBox" runat="server" Text='<%# Bind("EMAIL_ADDRESS") %>' />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="EMAIL_ADDRESSTextBox" ErrorMessage="This Field is Required." />
                     <br /><br />
                     <div style="width: 150px; display: inline-block;">DOB:</div>
                     <asp:TextBox ID="DOBTextBox" runat="server" Text='<%# Bind("DOB") %>' />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="DOBTextBox" ErrorMessage="This Field is Required." />
                     <br /><br />
                     <div style="width: 150px; display: inline-block;">COUNTRY:</div>
                     <asp:TextBox ID="COUNTRYTextBox" runat="server" Text='<%# Bind("COUNTRY") %>' />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="COUNTRYTextBox" ErrorMessage="This Field is Required." />
                     <br /><br />
                     <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" CssClass="btn btn-success" style="font-size: larger;" />
                     &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" CssClass="btn btn-danger" style="font-size: larger;" />
