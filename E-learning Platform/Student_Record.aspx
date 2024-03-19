@@ -8,6 +8,16 @@
     <link href="/Content/bootstrap.min.css" rel="stylesheet" />
     <style>
 
+        .welcome-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            font-size: 36px;
+            color: black;
+            font-weight: bold;
+        }
+
         .sidebar {
             height: 100%;
             width: 200px;
@@ -60,13 +70,16 @@
 <a href="/Best E-learning Course.aspx">Best Course</a>
 </div>
         <div class = "content">
+            <div class="welcome-text">
+                <p>Student Progress Details</p>
+            </div>        
             <asp:GridView ID="GridView1"  CssClass="table table-striped" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="STUDENT_ID,COURSE_ID,LESSON_NUMBER" DataSourceID="SqlDataSource1" AllowPaging="True">
                 <Columns>
                     <asp:CommandField HeaderText="Delete" ShowDeleteButton="True" HeaderStyle-CssClass="text-black" HeaderStyle-BackColor="#ccffcc">
                         <ControlStyle CssClass="btn btn-danger " />
                     </asp:CommandField>
                     <asp:CommandField  HeaderText="Edit" ShowEditButton="True" HeaderStyle-CssClass="text-black " HeaderStyle-BackColor="#ccffcc">
-                        <ControlStyle CssClass="btn btn-primary" />
+                        <ControlStyle CssClass="btn btn-primary mb-2" />
                     </asp:CommandField>
                     <asp:BoundField DataField="STUDENT_ID" HeaderText="STUDENT_ID" ReadOnly="True" SortExpression="STUDENT_ID" HeaderStyle-BackColor="#ccffcc" />
                     <asp:TemplateField HeaderText="Student Name" HeaderStyle-BackColor="#ccffcc">
@@ -163,29 +176,31 @@ JOIN
                     &nbsp;<asp:LinkButton ID="UpdateCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
                 </EditItemTemplate>
                 <InsertItemTemplate>
-                    STUDENT_ID:
+                    <div style="text-align: left;">
+                    <div style="width: 200px; display: inline-block;">STUDENT_ID:</div>
                     <asp:DropDownList ID="DropDownList7" runat="server" DataSourceID="student1" DataTextField="STUDENT_NAME" DataValueField="STUDENT_ID" SelectedValue='<%# Bind("STUDENT_ID") %>'>
                     </asp:DropDownList>
                     <asp:SqlDataSource ID="student1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT &quot;STUDENT_ID&quot;, &quot;STUDENT_NAME&quot; FROM &quot;STUDENT&quot;"></asp:SqlDataSource>
-                    <br />
-                    COURSE_ID:
+                    <br /><br />
+                    <div style="width: 200px; display: inline-block;">COURSE_ID:</div>
                     <asp:DropDownList ID="DropDownList8" runat="server" DataSourceID="course1" DataTextField="COURSE_TITLE" DataValueField="COURSE_ID" SelectedValue='<%# Bind("COURSE_ID") %>'>
                     </asp:DropDownList>
                     <asp:SqlDataSource ID="course1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT &quot;COURSE_ID&quot;, &quot;COURSE_TITLE&quot; FROM &quot;COURSE&quot;"></asp:SqlDataSource>
-                    <br />
-                    LESSON_NUMBER:
+                    <br /><br />
+                    <div style="width: 200px; display: inline-block;">LESSON_NUMBER:</div>
                     <asp:DropDownList ID="DropDownList9" runat="server" DataSourceID="lesson1" DataTextField="LESSON_TITLE" DataValueField="LESSON_NUMBER" SelectedValue='<%# Bind("LESSON_NUMBER") %>'>
                     </asp:DropDownList>
                     <asp:SqlDataSource ID="lesson1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT &quot;LESSON_NUMBER&quot;, &quot;LESSON_TITLE&quot; FROM &quot;LESSON&quot;"></asp:SqlDataSource>
-                    <br />
-                    LESSON_STATUS:
+                    <br /><br />
+                    <div style="width: 200px; display: inline-block;">LESSON_STATUS:</div>
                     <asp:TextBox ID="LESSON_STATUSTextBox" runat="server" Text='<%# Bind("LESSON_STATUS") %>' />
-                    <br />
-                    LAST_ACCESSED_DATE:
+                    <br /><br />
+                    <div style="width: 200px; display: inline-block;">LAST_ACCESSED_DATE:</div>
                     <asp:TextBox ID="LAST_ACCESSED_DATETextBox" runat="server" Text='<%# Bind("LAST_ACCESSED_DATE") %>' />
-                    <br />
-                    <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" />
-&nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+                    <br /><br />
+                    <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" CssClass="btn btn-success" style="font-size: larger;"/>
+                    &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" CssClass="btn btn-danger" style="font-size: larger;"/>
+                     </div>
                 </InsertItemTemplate>
                 <ItemTemplate>
                     <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="False" CommandName="New" Text="Insert" CssClass="btn btn-success" style="font-size: larger;" />

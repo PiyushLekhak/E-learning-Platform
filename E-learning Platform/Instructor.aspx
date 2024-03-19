@@ -8,6 +8,16 @@
     <link href="/Content/bootstrap.min.css" rel="stylesheet" />
     <style>
 
+        .welcome-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            font-size: 36px;
+            color: black;
+            font-weight: bold;
+        }
+
         .sidebar {
             height: 100%;
             width: 200px;
@@ -60,7 +70,9 @@
 <a href="/Best E-learning Course.aspx">Best Course</a>
 </div>
         <div class ="content">
-        
+            <div class="welcome-text">
+                <p>Instructor Details</p>
+            </div>        
         <asp:GridView ID="GridView1" CssClass="table table-striped" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="COURSE_INSTRUCTOR_ID" DataSourceID="SqlDataSource1" AllowPaging="True">
             <Columns>
                     <asp:CommandField HeaderText="Delete" ShowDeleteButton="True" HeaderStyle-CssClass="text-black" HeaderStyle-BackColor="#ccffcc">
@@ -97,23 +109,25 @@
         </asp:SqlDataSource>
         <asp:FormView ID="FormView1" runat="server" DataKeyNames="COURSE_INSTRUCTOR_ID" DataSourceID="SqlDataSource1">
             <InsertItemTemplate>
-                COURSE_INSTRUCTOR_ID:
+                <div style="text-align: left;">
+                <div style="width: 250px; display: inline-block;">COURSE_INSTRUCTOR_ID:</div>
                 <asp:TextBox ID="COURSE_INSTRUCTOR_IDTextBox" runat="server" Text='<%# Bind("COURSE_INSTRUCTOR_ID") %>' />
-                <br />
-                COURSE_INSTRUCTOR_NAME:
+                <br /><br />
+                <div style="width: 250px; display: inline-block;">COURSE_INSTRUCTOR_NAME:</div>
                 <asp:TextBox ID="COURSE_INSTRUCTOR_NAMETextBox" runat="server" Text='<%# Bind("COURSE_INSTRUCTOR_NAME") %>' />
-                <br />
-                COURSE_INSTRUCTOR_ADDRESS:
+                <br /><br />
+                <div style="width: 250px; display: inline-block;">COURSE_INSTRUCTOR_ADDRESS:</div>
                 <asp:TextBox ID="COURSE_INSTRUCTOR_ADDRESSTextBox" runat="server" Text='<%# Bind("COURSE_INSTRUCTOR_ADDRESS") %>' />
-                <br />
-                COURSE_INSTRUCTOR_EMAIL:
+                <br /><br />
+                <div style="width: 250px; display: inline-block;">COURSE_INSTRUCTOR_EMAIL:</div>
                 <asp:TextBox ID="COURSE_INSTRUCTOR_EMAILTextBox" runat="server" Text='<%# Bind("COURSE_INSTRUCTOR_EMAIL") %>' />
-                <br />
-                COURSE_INSTRUCTOR_CONTACT:
+                <br /><br />
+                <div style="width: 250px; display: inline-block;">COURSE_INSTRUCTOR_CONTACT:</div>
                 <asp:TextBox ID="COURSE_INSTRUCTOR_CONTACTTextBox" runat="server" Text='<%# Bind("COURSE_INSTRUCTOR_CONTACT") %>' />
-                <br />
-                <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" />
-                &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+                <br /><br />
+                <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" CssClass="btn btn-success" style="font-size: larger;" />
+                &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" CssClass="btn btn-danger" style="font-size: larger;" />
+                </div>
             </InsertItemTemplate>
             <ItemTemplate>
                 <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="False" CommandName="New" Text="Insert" CssClass="btn btn-success" style="font-size: larger;"/>

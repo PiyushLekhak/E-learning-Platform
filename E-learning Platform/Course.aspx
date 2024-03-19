@@ -8,6 +8,16 @@
     <link href="/Content/bootstrap.min.css" rel="stylesheet" />
     <style>
 
+        .welcome-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            font-size: 36px;
+            color: black;
+            font-weight: bold;
+        }
+
         .sidebar {
             height: 100%;
             width: 200px;
@@ -60,6 +70,9 @@
 <a href="/Best E-learning Course.aspx">Best Course</a>
 </div>
         <div class = "content">
+            <div class="welcome-text">
+                <p>Course Details</p>
+            </div>        
             <asp:GridView ID="GridView1" CssClass="table table-striped" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="COURSE_ID" DataSourceID="SqlDataSource1" AllowPaging="True">
                 <Columns>
                     <asp:CommandField HeaderText="Delete" ShowDeleteButton="True" HeaderStyle-CssClass="text-black" HeaderStyle-BackColor="#ccffcc">
@@ -96,23 +109,25 @@
         </asp:SqlDataSource>
         <asp:FormView ID="FormView1" runat="server" DataKeyNames="COURSE_ID" DataSourceID="SqlDataSource1">
             <InsertItemTemplate>
-                COURSE_ID:
+                <div style="text-align: left;">
+                <div style="width: 150px; display: inline-block;">COURSE_ID:</div>
                 <asp:TextBox ID="COURSE_IDTextBox" runat="server" Text='<%# Bind("COURSE_ID") %>' />
-                <br />
-                COURSE_TITLE:
+                <br /><br />
+                <div style="width: 150px; display: inline-block;">COURSE_TITLE:</div>
                 <asp:TextBox ID="COURSE_TITLETextBox" runat="server" Text='<%# Bind("COURSE_TITLE") %>' />
-                <br />
-                COURSE_LEVEL:
+                <br /><br />
+                <div style="width: 150px; display: inline-block;">COURSE_LEVEL:</div>
                 <asp:TextBox ID="COURSE_LEVELTextBox" runat="server" Text='<%# Bind("COURSE_LEVEL") %>' />
-                <br />
-                DURATION_MONTHS:
+                <br /> <br />
+                <div style="width: 150px; display: inline-block;">DURATION_MONTHS:</div>
                 <asp:TextBox ID="DURATION_MONTHSTextBox" runat="server" Text='<%# Bind("DURATION_MONTHS") %>' />
-                <br />
-                DESCRIPTION:
+                <br /><br />
+                <div style="width: 150px; display: inline-block;">DESCRIPTION:</div>
                 <asp:TextBox ID="DESCRIPTIONTextBox" runat="server" Text='<%# Bind("DESCRIPTION") %>' />
-                <br />
-                <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" />
-                &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+                <br /><br />
+                <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" CssClass="btn btn-success" style="font-size: larger;"/>
+                &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" CssClass="btn btn-danger" style="font-size: larger;"/>
+                 </div>
             </InsertItemTemplate>
             <ItemTemplate><asp:LinkButton ID="InsertButton" runat="server" CausesValidation="False" CommandName="New" Text="Insert" CssClass="btn btn-success" style="font-size: larger;" />
             </ItemTemplate>

@@ -8,6 +8,17 @@
     <link href="/Content/bootstrap.min.css" rel="stylesheet" />
     <style>
 
+        .welcome-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            font-size: 36px;
+            color: black;
+            font-weight: bold;
+        }
+
+
         .sidebar {
             height: 100%;
             width: 200px;
@@ -60,6 +71,9 @@
     <a href="/Best E-learning Course.aspx">Best Course</a>
     </div>
         <div class="content">
+            <div class="welcome-text">
+                <p>Student Details</p>
+            </div>
         <asp:GridView ID="GridView1" CssCLass="table table-striped" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="STUDENT_ID" DataSourceID="SqlDataSource1" AllowPaging="True">
             <Columns>
                     <asp:CommandField HeaderText="Delete" ShowDeleteButton="True" HeaderStyle-CssClass="text-black" HeaderStyle-BackColor="#ccffcc">
@@ -99,26 +113,28 @@
         </asp:SqlDataSource>
         <asp:FormView ID="FormView1" runat="server" DataKeyNames="STUDENT_ID" DataSourceID="SqlDataSource1">
             <InsertItemTemplate>
-                STUDENT_ID:
-                <asp:TextBox ID="STUDENT_IDTextBox" runat="server" Text='<%# Bind("STUDENT_ID") %>' />
-                <br />
-                STUDENT_NAME:
-                <asp:TextBox ID="STUDENT_NAMETextBox" runat="server" Text='<%# Bind("STUDENT_NAME") %>' />
-                <br />
-                CONTACT:
-                <asp:TextBox ID="CONTACTTextBox" runat="server" Text='<%# Bind("CONTACT") %>' />
-                <br />
-                EMAIL_ADDRESS:
-                <asp:TextBox ID="EMAIL_ADDRESSTextBox" runat="server" Text='<%# Bind("EMAIL_ADDRESS") %>' />
-                <br />
-                DOB:
-                <asp:TextBox ID="DOBTextBox" runat="server" Text='<%# Bind("DOB") %>' />
-                <br />
-                COUNTRY:
-                <asp:TextBox ID="COUNTRYTextBox" runat="server" Text='<%# Bind("COUNTRY") %>' />
-                <br />
-                <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" />
-                &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+                <div style="text-align: left;">
+                    <div style="width: 150px; display: inline-block;">STUDENT_ID:</div>
+                    <asp:TextBox ID="STUDENT_IDTextBox" runat="server" Text='<%# Bind("STUDENT_ID") %>' />
+                    <br /> <br />
+                    <div style="width: 150px; display: inline-block;">STUDENT_NAME:</div>
+                    <asp:TextBox ID="STUDENT_NAMETextBox" runat="server" Text='<%# Bind("STUDENT_NAME") %>' />
+                    <br /><br />
+                    <div style="width: 150px; display: inline-block;">CONTACT:</div>
+                    <asp:TextBox ID="CONTACTTextBox" runat="server" Text='<%# Bind("CONTACT") %>' />
+                    <br /><br />
+                    <div style="width: 150px; display: inline-block;">EMAIL_ADDRESS:</div>
+                    <asp:TextBox ID="EMAIL_ADDRESSTextBox" runat="server" Text='<%# Bind("EMAIL_ADDRESS") %>' />
+                    <br /><br />
+                    <div style="width: 150px; display: inline-block;">DOB:</div>
+                    <asp:TextBox ID="DOBTextBox" runat="server" Text='<%# Bind("DOB") %>' />
+                    <br /><br />
+                    <div style="width: 150px; display: inline-block;">COUNTRY:</div>
+                    <asp:TextBox ID="COUNTRYTextBox" runat="server" Text='<%# Bind("COUNTRY") %>' />
+                    <br /><br />
+                    <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" CssClass="btn btn-success" style="font-size: larger;" />
+                    &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" CssClass="btn btn-danger" style="font-size: larger;" />
+                </div>
             </InsertItemTemplate>
             <ItemTemplate>
                 <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="False" CommandName="New" Text="Insert" CssClass="btn btn-success" style="font-size: larger;" />

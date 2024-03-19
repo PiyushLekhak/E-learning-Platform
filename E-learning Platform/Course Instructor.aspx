@@ -8,6 +8,16 @@
     <link href="/Content/bootstrap.min.css" rel="stylesheet" />
     <style>
 
+        .welcome-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            font-size: 36px;
+            color: black;
+            font-weight: bold;
+        }
+
         .sidebar {
             height: 100%;
             width: 200px;
@@ -60,6 +70,9 @@
 <a href="/Best E-learning Course.aspx">Best Course</a>
 </div>
         <div class = "content">
+            <div class="welcome-text">
+                <p>Course Instructor Details</p>
+            </div>        
         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT &quot;COURSE_ID&quot;, &quot;COURSE_TITLE&quot; FROM &quot;COURSE&quot;"></asp:SqlDataSource>
         <div>
         </div>
@@ -78,20 +91,21 @@ WHERE c.course_id = :course">
                 <asp:ControlParameter ControlID="DropDownList1" Name="course" PropertyName="SelectedValue" />
             </SelectParameters>
         </asp:SqlDataSource>
+        <label for="DropDownList1">Select Course Title : </label>
         <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource2" DataTextField="COURSE_TITLE" DataValueField="COURSE_ID">
         </asp:DropDownList>
-        <asp:GridView ID="GridView1" CssClass="table mt-3" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="COURSE_ID,COURSE_INSTRUCTOR_ID" DataSourceID="SqlDataSource1">
+        <asp:GridView ID="GridView1" CssClass="table mt-3 table-striped" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="COURSE_ID,COURSE_INSTRUCTOR_ID" DataSourceID="SqlDataSource1">
             <Columns>
-                <asp:BoundField DataField="COURSE_ID" HeaderText="COURSE ID" ReadOnly="True" SortExpression="COURSE_ID" />
-                <asp:BoundField DataField="COURSE_TITLE" HeaderText="COURSE TITLE" SortExpression="COURSE_TITLE" />
-                <asp:BoundField DataField="COURSE_LEVEL" HeaderText="COURSE LEVEL" SortExpression="COURSE_LEVEL" />
-                <asp:BoundField DataField="DURATION_MONTHS" HeaderText="DURATION MONTHS" SortExpression="DURATION_MONTHS" />
-                <asp:BoundField DataField="DESCRIPTION" HeaderText="DESCRIPTION" SortExpression="DESCRIPTION" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_ID" HeaderText="COURSE INSTRUCTOR ID" ReadOnly="True" SortExpression="COURSE_INSTRUCTOR_ID" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_NAME" HeaderText="COURSE INSTRUCTOR NAME" SortExpression="COURSE_INSTRUCTOR_NAME" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_ADDRESS" HeaderText="COURSE INSTRUCTOR ADDRESS" SortExpression="COURSE_INSTRUCTOR_ADDRESS" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_EMAIL" HeaderText="COURSE INSTRUCTOR EMAIL" SortExpression="COURSE_INSTRUCTOR_EMAIL" />
-                <asp:BoundField DataField="COURSE_INSTRUCTOR_CONTACT" HeaderText="COURSE INSTRUCTOR CONTACT" SortExpression="COURSE_INSTRUCTOR_CONTACT" />
+                <asp:BoundField DataField="COURSE_ID" HeaderText="COURSE ID" ReadOnly="True" SortExpression="COURSE_ID"  HeaderStyle-BackColor="#ccffcc"/>
+                <asp:BoundField DataField="COURSE_TITLE" HeaderText="COURSE TITLE" SortExpression="COURSE_TITLE"  HeaderStyle-BackColor="#ccffcc"/>
+                <asp:BoundField DataField="COURSE_LEVEL" HeaderText="COURSE LEVEL" SortExpression="COURSE_LEVEL"  HeaderStyle-BackColor="#ccffcc"/>
+                <asp:BoundField DataField="DURATION_MONTHS" HeaderText="DURATION MONTHS" SortExpression="DURATION_MONTHS"  HeaderStyle-BackColor="#ccffcc"/>
+                <asp:BoundField DataField="DESCRIPTION" HeaderText="DESCRIPTION" SortExpression="DESCRIPTION"  HeaderStyle-BackColor="#ccffcc"/>
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_ID" HeaderText="COURSE INSTRUCTOR ID" ReadOnly="True" SortExpression="COURSE_INSTRUCTOR_ID"  HeaderStyle-BackColor="#ccffcc"/>
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_NAME" HeaderText="COURSE INSTRUCTOR NAME" SortExpression="COURSE_INSTRUCTOR_NAME"  HeaderStyle-BackColor="#ccffcc"/>
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_ADDRESS" HeaderText="COURSE INSTRUCTOR ADDRESS" SortExpression="COURSE_INSTRUCTOR_ADDRESS"  HeaderStyle-BackColor="#ccffcc"/>
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_EMAIL" HeaderText="COURSE INSTRUCTOR EMAIL" SortExpression="COURSE_INSTRUCTOR_EMAIL"  HeaderStyle-BackColor="#ccffcc"/>
+                <asp:BoundField DataField="COURSE_INSTRUCTOR_CONTACT" HeaderText="COURSE INSTRUCTOR CONTACT" SortExpression="COURSE_INSTRUCTOR_CONTACT"  HeaderStyle-BackColor="#ccffcc"/>
             </Columns>
         </asp:GridView>
             </div>
