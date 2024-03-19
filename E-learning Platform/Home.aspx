@@ -170,7 +170,7 @@
                             <asp:ChartArea Name="ChartArea1"></asp:ChartArea>
                         </chartareas>
                     </asp:Chart>
-                    <asp:SqlDataSource ID="country" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT country, COUNT(*) AS student_count FROM student GROUP BY country"></asp:SqlDataSource>
+                    <asp:SqlDataSource ID="country" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT country, COUNT(*) AS student_count FROM student GROUP BY country" OnSelecting="country_Selecting"></asp:SqlDataSource>
                 </div>
                 <div class="col-md-6"">
                     <p class="chart-text">Most Completed Courses</p>
@@ -199,7 +199,7 @@
                             <asp:ChartArea Name="ChartArea1"><AxisX Interval="1"></AxisX></asp:ChartArea>
                         </chartareas>
                     </asp:Chart>
-                    <asp:SqlDataSource ID="enrollmentpermonth" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT TO_CHAR(enrollment_date, 'Month') AS month_name, COUNT(*) AS num_enrollments FROM enrollment GROUP BY TO_CHAR(enrollment_date, 'Month') ORDER BY MIN(enrollment_date)"></asp:SqlDataSource>
+                    <asp:SqlDataSource ID="enrollmentpermonth" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT TO_CHAR(enrollment_date, 'Month') AS month_name, COUNT(*) AS num_enrollments FROM enrollment GROUP BY TO_CHAR(enrollment_date, 'Month') ORDER BY MIN(enrollment_date)" OnSelecting="enrollmentpermonth_Selecting"></asp:SqlDataSource>
                 </div>
                 <div class="col-md-6">
                     <p class="chart-text">Most Popular Courses</p>

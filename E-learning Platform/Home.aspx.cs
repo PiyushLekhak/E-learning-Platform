@@ -23,5 +23,15 @@ namespace E_learning_Platform
         {
 
         }
+
+        protected void country_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
+        {
+
+        }
+
+        protected void enrollmentpermonth_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
+        {
+
+        }
     }
 }
