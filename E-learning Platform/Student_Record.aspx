@@ -177,17 +177,17 @@ JOIN
                 </EditItemTemplate>
                 <InsertItemTemplate>
                     <div style="text-align: left;">
-                    <div style="width: 200px; display: inline-block;">STUDENT_ID:</div>
+                    <div style="width: 200px; display: inline-block;">STUDENT_NAME:</div>
                     <asp:DropDownList ID="DropDownList7" runat="server" DataSourceID="student1" DataTextField="STUDENT_NAME" DataValueField="STUDENT_ID" SelectedValue='<%# Bind("STUDENT_ID") %>'>
                     </asp:DropDownList>
                     <asp:SqlDataSource ID="student1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT &quot;STUDENT_ID&quot;, &quot;STUDENT_NAME&quot; FROM &quot;STUDENT&quot;"></asp:SqlDataSource>
                     <br /><br />
-                    <div style="width: 200px; display: inline-block;">COURSE_ID:</div>
+                    <div style="width: 200px; display: inline-block;">COURSE_TITLE:</div>
                     <asp:DropDownList ID="DropDownList8" runat="server" DataSourceID="course1" DataTextField="COURSE_TITLE" DataValueField="COURSE_ID" SelectedValue='<%# Bind("COURSE_ID") %>'>
                     </asp:DropDownList>
                     <asp:SqlDataSource ID="course1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT &quot;COURSE_ID&quot;, &quot;COURSE_TITLE&quot; FROM &quot;COURSE&quot;"></asp:SqlDataSource>
                     <br /><br />
-                    <div style="width: 200px; display: inline-block;">LESSON_NUMBER:</div>
+                    <div style="width: 200px; display: inline-block;">LESSON_TITLE:</div>
                     <asp:DropDownList ID="DropDownList9" runat="server" DataSourceID="lesson1" DataTextField="LESSON_TITLE" DataValueField="LESSON_NUMBER" SelectedValue='<%# Bind("LESSON_NUMBER") %>'>
                     </asp:DropDownList>
                     <asp:SqlDataSource ID="lesson1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT &quot;LESSON_NUMBER&quot;, &quot;LESSON_TITLE&quot; FROM &quot;LESSON&quot;"></asp:SqlDataSource>

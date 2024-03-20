@@ -115,10 +115,10 @@
         <asp:FormView ID="FormView1" runat="server" DataKeyNames="COURSE_ID,LESSON_NUMBER" DataSourceID="SqlDataSource1">
             <InsertItemTemplate>
                 <div style="text-align: left;">
-                <div style="width: 150px; display: inline-block;">COURSE_ID:</div><asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource1" DataTextField="COURSE_TITLE" DataValueField="COURSE_ID" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" SelectedValue='<%# Bind("COURSE_ID") %>'>
+                <div style="width: 150px; display: inline-block;">COURSE_TITLE:</div><asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource1" DataTextField="COURSE_TITLE" DataValueField="COURSE_ID" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" SelectedValue='<%# Bind("COURSE_ID") %>'>
                 </asp:DropDownList>
                 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT &quot;COURSE_ID&quot;, &quot;COURSE_TITLE&quot; FROM &quot;COURSE&quot;"></asp:SqlDataSource>
-&nbsp;<br /><br /><div style="width: 150px; display: inline-block;">LESSON_NUMBER:</div>
+&nbsp;<br />&nbsp;<br /><div style="width: 150px; display: inline-block;">LESSON_NUMBER:</div>
                 <asp:TextBox ID="LESSON_NUMBERTextBox" runat="server" Text='<%# Bind("LESSON_NUMBER") %>' />
                 <asp:RegularExpressionValidator ID="LessonNumberValidator" runat="server" ControlToValidate="LESSON_NUMBERTextBox" ErrorMessage="Lesson number must be greater than or equal to 1." ValidationExpression="^[1-9]\d*$" />
                 <br /><br />
@@ -129,7 +129,7 @@
                 <asp:TextBox ID="CONTENT_TYPETextBox" runat="server" Text='<%# Bind("CONTENT_TYPE") %>' />
                 <br /><br />
                 <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" CssClass="btn btn-success" style="font-size: larger;"/>
-                &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" CssClass="btn btn-danger" style="font-size: larger;"/>
+                    &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" CssClass="btn btn-danger" style="font-size: larger;"/>
                  </div>
             </InsertItemTemplate>
             <ItemTemplate>
