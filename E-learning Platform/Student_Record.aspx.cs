@@ -13,5 +13,15 @@ namespace E_learning_Platform
         {
 
         }
+
+        protected void InsertCancelButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void FormView1_PageIndexChanging(object sender, FormViewPageEventArgs e)
+        {
+
+        }
     }
 }

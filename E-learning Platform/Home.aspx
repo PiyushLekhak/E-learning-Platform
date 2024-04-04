@@ -183,7 +183,7 @@
                                 <asp:ChartArea Name="ChartArea1"></asp:ChartArea>
                             </chartareas>
                         </asp:Chart>
-                        <asp:SqlDataSource ID="coursecompletion" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT c.course_title, COUNT(sr.student_id) AS completed_students FROM course c JOIN student_record sr ON c.course_id = sr.course_id AND sr.lesson_status = 'Completed' GROUP BY c.course_title ORDER BY completed_students DESC"></asp:SqlDataSource>
+                        <asp:SqlDataSource ID="coursecompletion" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT c.course_title, COUNT(sr.student_id) AS completed_students FROM course c JOIN student_record sr ON c.course_id = sr.course_id AND sr.lesson_status = 'Completed' GROUP BY c.course_title ORDER BY completed_students DESC" OnSelecting="coursecompletion_Selecting"></asp:SqlDataSource>
                     </div>
                  </div>
             </div>
